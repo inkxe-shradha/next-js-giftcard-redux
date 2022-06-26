@@ -1,0 +1,36 @@
+// Loading Types
+export const BEGINS_LOADING = "BEGINS_LOADING";
+export const ENDS_LOADING = "ENDS_LOADING";
+
+// Authentication types
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAILURE = "LOGIN_FAILURE";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+export const UPDATE_USER_DETAILS = "UPDATE_USER_DETAILS";
+export const AUTH_ERROR = "AUTH_ERROR";
+
+// Gift-card types
+export const LOAD_GIFT_CARDS = "LOAD_GIFT_CARDS";
+export const LOAD_SINGLE_GIFT_CARDS = "LOADED_SINGLE_GIFT_CARDS";
+export const ADD_GIFT_CARDS = "ADD_GIFT_CARDS";
+export const UPDATE_GIFT_CARD = "UPDATE_GIFT_CARD";
+export const UPDATE_GIFT_CARD_LIST = "UPDATE_GIFT_CARD_LIST";
+export const DELETE_GIFT_CARDS = "DELETE_GIFT_CARDS";
+export const UPDATE_GIFT_RECEIVER = "UPDATE_GIFT_RECEIVER";
+
+export const GIFT_CARD_RECEIVED = "GIFT_CARD_RECEIVED";
+export const GIFT_CARD_SENT = "GIFT_CARD_SENT";
+
+export const SEND_EMAIL_START = "SEND_EMAIL_START";
+export const SEND_EMAIL_END = "SEND_EMAIL_END";
+export const SEND_EMAIL_FAILED = "SEND_EMAIL_FAILED";
+
+export const BEGINS_CARD_LOADING = "BEGINS_CARD_LOADING";
+export const ENDS_CARD_LOADING = "ENDS_CARD_LOADING";
+
+export const ADD_COMMENTS = "ADD_COMMENTS";
+export const UPDATE_COMMENTS = "UPDATE_COMMENTS";
+export const DELETE_COMM = "DELETE_COMM";
+
+export const HAS_MORE_CARDS = "HAS_MORE_CARDS";
+export const RESET_CARDS = "RESET_CARDS";

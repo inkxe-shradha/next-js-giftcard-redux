@@ -1,0 +1,72 @@
+[
+    {
+        "cardName": "Flipkart Gift Card",
+        "cardPoints": 46,
+        "cardCategory": "Ecommerce",
+        "cardRetailer": "Amazon",
+        "cardIssueDate": "2022-04-18T07:11:54.234Z",
+        "cardExpiryDate": "2025-01-01T00:00:00.000Z",
+        "cardCount": 91,
+        "cardImage": "https://i.pinimg.com/originals/15/aa/16/15aa1678d4ee5615c5c53ed5c9968126.png",
+        "cardVendor": "Flipkart",
+        "cardShortDesc": "10% OFF",
+        "cardLongDesc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quisquam tenetur alias ducimus nostrum voluptate, nam suscipit ipsa dolorem mollitia error soluta, distinctio esse. Earum, quo! Cupiditate dignissimos iste ratione.",
+        "cardComments": [],
+        "id": 1650265916547
+    },
+    {
+        "cardName": "Amazon Gift Card",
+        "cardPoints": 77,
+        "cardCategory": "Ecommerce",
+        "cardRetailer": "Amazon",
+        "cardIssueDate": "2022-04-18T07:11:54.234Z",
+        "cardExpiryDate": "2025-01-01T00:00:00.000Z",
+        "cardCount": 91,
+        "cardImage": "https://pngimg.com/uploads/amazon/amazon_PNG21.png",
+        "cardVendor": "Amazon",
+        "cardShortDesc": "10% OFF",
+        "cardLongDesc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quisquam tenetur alias ducimus nostrum voluptate, nam suscipit ipsa dolorem mollitia error soluta, distinctio esse. Earum, quo! Cupiditate dignissimos iste ratione.",
+        "cardComments": [],
+        "id": 1650265917869
+    },
+    {
+        "id": 9,
+        "cardName": "Myntra New",
+        "cardPoints": 456,
+        "cardCategory": "Ecommerce",
+        "cardRetailer": "Myntra",
+        "cardIssueDate": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)",
+        "cardExpiryDate": "Sun May 26 2019 15:43:25 GMT+0530 (India Standard Time)",
+        "cardCount": 4,
+        "cardImage": "https://img.etimg.com/thumb/msid-52350287,width-300,imgsize-34171,resizemode-4/myntra-app-faces-tech-glitch-spams-users-with-notifications.jpg",
+        "cardVendor": "Myntra",
+        "cardShortDesc": "25% OFF",
+        "cardLongDesc": "Myntra Gift Cards are the Perfect Gift, Every Time. Use the Myntra Gift Card to shop from millions of items in Electronics, Toys, Motors, Fashion, Home & Garden, Art, Collectibles, Sporting Goods and everything in-between. eBay Gift Cards never expire and have no fees. Use it to shop now or wait for the deal of a lifetime.",
+        "cardComments": [
+            {
+                "id": 1,
+                "first_name": "John",
+                "last_name": "Hall",
+                "email": "john@gmail.com",
+                "rating": 3,
+                "comment": "Great gift card. Happy to gift!",
+                "commented_on": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)"
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "cardName": "Zomato",
+        "cardPoints": "109",
+        "cardCategory": "Food",
+        "cardRetailer": "Zomato",
+        "cardIssueDate": "4/17/2022",
+        "cardExpiryDate": "2022-04-17",
+        "cardCount": 397,
+        "cardImage": "https://cms.qz.com/wp-content/uploads/2015/05/zomatos-4th-logo-2012-14.png?w=900&h=900&crop=1&strip=all&quality=75",
+        "cardVendor": "Zomato",
+        "cardShortDesc": "40% OFF",
+        "cardLongDesc": "Zomato. Zomato is an Indian restaurant search and discovery service founded in 2008 by Deepinder Goyal and Pankaj Chaddah. It currently operates in 24 countries. It provides information and reviews of restaurants, including images of menus where the restaurant does not have its own website and also online delivery.",
+        "cardComments": []
+    }
+]
