@@ -4,7 +4,7 @@ import {
   getUserDataFromFile,
   readMyFile,
   writeINFile,
-} from "../../../server/fileReader";
+} from "../../../file-reader/fileReader";
 import GoogleProvider from "next-auth/providers/google";
 import { checkedLoginUserAccessStatus } from "../../../components/utils/sharedutils";
 export default NextAuth({

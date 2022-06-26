@@ -2,13 +2,13 @@ import { readFileSync, writeFileSync } from "fs";
 import path from "path";
 
 export function readMyFile(filename = "content-mock.json") {
-  const filePath = path.join(process.cwd(), "server", filename);
+  const filePath = path.join(process.cwd(), "file-reader", filename);
   const fileContents = readFileSync(filePath, "utf8");
   return JSON.parse(fileContents);
 }
 
 export function writeINFile(filename = "content-mock.json", data) {
-  const filePath = path.join(process.cwd(), "server", filename);
+  const filePath = path.join(process.cwd(), "file-reader", filename);
   const fileContents = JSON.stringify(data);
   return writeFileSync(filePath, fileContents, "utf8");
 }

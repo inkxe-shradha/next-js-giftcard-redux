@@ -85,6 +85,7 @@ MyApp.propTypes = {
   pageProps: PropTypes.object.isRequired,
 };
 
+// Set up
 MyApp.getInitialProps = async (context) => {
   const appProps = await App.getInitialProps(context);
   const session = await getSession(context);

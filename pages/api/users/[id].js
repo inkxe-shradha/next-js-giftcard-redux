@@ -1,5 +1,5 @@
 import { getSession } from "next-auth/react";
-import { updateUserDetails } from "../../../server/fileReader";
+import { updateUserDetails } from "../../../file-reader/fileReader";
 
 export default async function handler(req, res) {
   const session = await getSession({ req });

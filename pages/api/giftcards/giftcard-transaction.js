@@ -2,7 +2,7 @@ import { getSession } from "next-auth/react";
 import {
   getCurrentAccountCards,
   saveAccountCards,
-} from "../../../server/fileReader";
+} from "../../../file-reader/fileReader";
 
 export default async function handler(req, res) {
   const session = await getSession({ req });
