@@ -13,9 +13,9 @@ It is developed with **Next Js**  Lastest frame work. (*Next-12, React-18*)
 
 > After download/clone it use command  **npm i OR yarn i**
 
-### Code that need to run after download the files
+#### Code that need to run after download the files
 
-```js
+```
 npm i / yarn install
 npm run dev / yarn dev 
 ```
@@ -57,6 +57,8 @@ I implemented as much feature as I can to make app workable.
 - **Node Backend** (Filesystem, API, Authentication-Backend)
 - **Google Login** Implementation
 - **Material UI** Configuration-Implementation-Use of custom hooks
+- **Dynamic Routing** Dynamic routing with dynamic id for both *Server side and client side*
+- **Server side and Client side** file generation.
 
 For any doubt please connect with me at `shradhasuman2@gmail.com`
 
