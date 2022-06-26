@@ -1,6 +1,6 @@
 import { getSession } from "next-auth/react";
 import { checkedLoginUserAccessStatus } from "../../../components/utils/sharedutils";
-import { saveCardList } from "../../../file-reader/fileReader";
+import { saveCardList } from "../../../config/fileReader";
 export default async function handler(req, res) {
   if (req.method === "POST" || req.method === "PUT") {
     const session = await getSession({ req });

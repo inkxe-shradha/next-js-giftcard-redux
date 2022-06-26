@@ -2,7 +2,7 @@ import Divider from "@mui/material/Divider";
 import Chip from "@mui/material/Chip";
 import CustomCarousel from "../components/Home/CustomCoursal";
 import StaticCoupons from "../components/Home/StaticCoupons";
-import { readMyFile } from "../file-reader/fileReader";
+import { readMyFile } from "../config/fileReader";
 import MetaHeader from "../components/Meta/MetaHeader";
 export default function Home({ staticCoupons }) {
   return (

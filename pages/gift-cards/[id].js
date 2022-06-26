@@ -1,5 +1,5 @@
 import React from "react";
-import { getAskedNumberOfRecords } from "../../file-reader/fileReader";
+import { getAskedNumberOfRecords } from "../../config/fileReader";
 import Container from "@mui/material/Container";
 import CardDetails from "../../components/Gird/CardDetails";
 const GiftCardDetails = ({ id }) => {

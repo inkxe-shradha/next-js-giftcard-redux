@@ -3,7 +3,7 @@ import {
   getCardById,
   removeCard as removeCardFromFileSystem,
   updateCardInFileSystem,
-} from "../../../file-reader/fileReader";
+} from "../../../config/fileReader";
 
 export default async function handler(req, res) {
   const session = await getSession({ req });

@@ -2,14 +2,14 @@ import { readFileSync, writeFileSync } from "fs";
 import path from "path";
 
 export function readMyFile(filename = "content-mock.json") {
-  const configDirectory = path.resolve(process.cwd(), "file-reader");
+  const configDirectory = path.resolve(process.cwd(), "public/file-reader");
   const filePath = path.join(configDirectory, filename);
   const fileContents = readFileSync(filePath, "utf8");
   return JSON.parse(fileContents);
 }
 
 export function writeINFile(filename = "content-mock.json", data) {
-  const configDirectory = path.resolve(process.cwd(), "file-reader");
+  const configDirectory = path.resolve(process.cwd(), "public/file-reader");
   const filePath = path.join(configDirectory, filename);
   const fileContents = JSON.stringify(data);
   return writeFileSync(filePath, fileContents, "utf8");

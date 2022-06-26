@@ -1,4 +1,4 @@
-import { getAllGiftCardsList as listCards } from "../../../file-reader/fileReader";
+import { getAllGiftCardsList as listCards } from "../../../config/fileReader";
 
 export default function handler(req, res) {
   // Fetching all passed query params
